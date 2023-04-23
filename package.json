@@ -1,0 +1,12 @@
+{
+  "name": "pha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start" : "electron .",
+    "test": "start"
+  },
+  "author": "herve",
+  "license": "ISC"
+}

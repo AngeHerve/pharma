@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="css/style.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+                <title>Formulaire</title>
+        </head>
+
+        <body>
+                <section>
+                        <form action="" id="formular" method="post">
+
+                                <div class="form-field">
+                                        <label for="nom">Nom du medicament</label>
+                                        <input type="text" name="nom" id="nom">
+                                </div>
+
+                                <div class="form-field">
+                                        <label for="numero">Numéro d'identification unique du médicament (code barre ou
+                                                code QR)</label>
+                                        <input type="number" name="numero" id="numero">
+                                </div>
+
+                                <div class="form-field">
+                                        <label for="reference">Reference</label>
+                                        <input type="text" name="reference" id="reference">
+                                </div>
+
+                                <div class="form-field">
+                                        <label for="fournisseur">Fournisseur</label>
+                                        <input type="text" name="fournisseur" id="fournisseur">
+                                </div>
+
+
+                                <div class="form-field">
+                                        <label for="quantite">Quantité de médicament Reçu</label>
+                                        <input type="number" name="quantite" id="quantite">
+                                </div>
+
+
+                                <div class="form-field">
+                                        <label for="stock">Quantité de médicament disponible en stock</label>
+                                        <input type="number" name="stock" id="stock">
+                                </div>
+
+
+                                <div class="form-field">
+                                        <label for="date_Exp">Date d'expiration</label>
+                                        <input type="date" name="date_Exp" id="date_Exp">
+                                </div>
+
+
+                                <div class="form-field">
+                                        <label for="vente">Prix de vente du médicament</label>
+                                        <input type="number" name="vente" id="vente">
+                                </div>
+
+
+                                <div class="button-field">
+                                        <button type="submit" onclick="formdata()"> Enregistrer</button>
+                                </div>
+
+
+                        </form>
+
+
+
+                        <div id="liste">
+
+                        </div>
+
+
+                </section>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="send.js"></script>
+        </body>
+
+</html>
